@@ -12,5 +12,6 @@ US9,Sortowanie wydatków,Jako użytkownik chcę posortować wydatki na przykład
 US10,Dodanie wydatków stałych,Jako użytkownik mogę jednym kliknięciem dodać do listy wydatki stałe - przykładowo rachunek za prąd,3,COULD,Todo,Istnieje interfejs do szybkiego dodawania wydatków stałych
 TECH1,Pipeline CI,Konfiguracja testów+lint w CI,2,MUST,Doing,CI przechodzi zielono
 TECH2,Analiza jakości,Integracja SonarQube,3,COULD,Todo,Raport metryk jakości
-TECH3,Logging,Dodanie prostego logowania błędów i ostrzeżeń,2,COULD,TODO,Błędy zapisują się w lokalnym logu/konsoli
-
+TECH3,Logging,Dodanie prostego logowania błędów i ostrzeżeń,2,COULD,Todo,Błędy zapisują się w lokalnym logu/konsoli
+TECH4,Bezpieczeństwo,System jest zabezpieczony przed włamaniami,3,SHOULD,Todo,Przechodzi testy bezpieczeństwa
+TECH5,Wydajność,Czas odpowiedzi systemu nie powinien przekraczać 1 sekundy,1,MUST,Pomiar czasu w teście nie przekracza 1 sekundy
