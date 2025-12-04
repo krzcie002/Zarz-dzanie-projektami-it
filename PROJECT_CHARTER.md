@@ -32,7 +32,7 @@ Czas rejestracji pojedynczego wydatku ≤ 15s; błędy krytyczne ≤ 1/100 uruch
 - użytkownik korzysta z aplikacji na jednym urządzeniu,
 
 ## Ograniczenia
-- Brak prawdziwej bazy danych i logowania.
+- Tylko lokalna baza danych
 - Brak backupu,
 - minimalizm
 
