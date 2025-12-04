@@ -11,8 +11,8 @@ Do **15 grudnia 2025** dostarczyć uproszczoną wersję aplikacji DTW umożliwia
 Czas rejestracji pojedynczego wydatku ≤ 15s; błędy krytyczne ≤ 1/100 uruchomień.
 
 ## Zakres (in/out)
-**IN:** prosty backend (Python), pamięć in‑memory/plik, UI do dodawania i przeglądania wydaktów, testy jednostkowe, CI.
-**OUT:** zarządzanie przychodami i budżetami, integracje bankowe - zewnętrzne API, logowanie użytkowników, synchronizacja danych między urządzeniami, statystyki i wykresy do podejrzenia.
+**IN:** prosty backend (Python), lokalna baza danych, logowanie użytkowników, UI do dodawania i przeglądania wydaktów, testy jednostkowe, CI.
+**OUT:** zarządzanie przychodami i budżetami, integracje bankowe - zewnętrzne API, aplikacja postawiona na serwerze/hostingu, prawdziwa baza danych, synchronizacja danych między urządzeniami, statystyki i wykresy do podejrzenia, edycja wydatków.
 
 ## Interesariusze
 - Zleceniodawca (prowadzący) – ustalenie wymagań, priorytety i akceptacja.
@@ -25,6 +25,7 @@ Czas rejestracji pojedynczego wydatku ≤ 15s; błędy krytyczne ≤ 1/100 uruch
 - Użytkownik jest w stanie korzystać z podstawowych funkcji aplikacji bez pomocy dokumentacji
 - Zielone pipeline’y w CI.
 - Dokumentacja ukończona.
+- Działające funkcje MUST
 
 ## Założenia
 - Zespół 3-4 osoby,
