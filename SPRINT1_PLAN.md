@@ -5,7 +5,7 @@
 Dostarczyć MVP: dodawanie wydatków, lista, podsumowanie 30 dni, zielone CI.
 
 ## Zakres (wybrane z BACKLOG.csv)
-- US1, US2, US3, TECH1
+- US1, US2, US3, TECH1, TECH5
 
 ## Zadania techniczne
 - Inicjalizacja repo i struktury
@@ -13,6 +13,7 @@ Dostarczyć MVP: dodawanie wydatków, lista, podsumowanie 30 dni, zielone CI.
 - Endpointy: POST /expenses, GET /expenses, GET /summary
 - Testy jednostkowe do kluczowych funkcji
 - Konfiguracja CI (pytest, flake8, black, bandit)
+- Testy wydajnościowe
 
 ## Definition of Done
 - Testy zielone (>= 80% coverage mile widziane)
